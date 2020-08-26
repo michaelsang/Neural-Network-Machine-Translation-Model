@@ -39,3 +39,58 @@ There are several ways to generate an HTML copy of the notebook:
 
     $ pip install nbconvert
     $ nbconvert machine_translation.ipynb
+
+
+
+
+
+=========================
+
+Meets Specifications
+Congratulation on passing the project! 🥳💯🎉
+
+Submitted Files
+The following files have been submitted: helper.py, machine_translation.ipynb, machine_translation.html
+
+Awesome! All three files have been submitted successfully.
+
+Preprocess
+The function tokenize returns tokenized input and the tokenized class.
+
+Perfect! The tokenize function returns the true tokenized input.
+
+The function pad returns padded input to the correct length.
+
+Fantastic! The pad function returns the correct output.
+
+Models
+The function simple_model builds a basic RNN model.
+
+Well done! The submission trained the model for 10 epochs and the validation accuracy ends at 0.6163.
+
+The function embed_model builds a RNN model using word embedding.
+
+Great job! The submission trained the model for 10 epochs and the validation accuracy ends at 0.8407.
+
+The Embedding RNN is trained on the dataset. A prediction using the model on the training dataset is printed in the notebook.
+
+Awesome! The model is trained on the dataset and there is also a prediction using the same model.
+
+The function bd_model builds a bidirectional RNN model.
+
+Great! The bd_model model got trained for 20 epochs and the validation accuracy ends at 0.5987.
+
+The Bidirectional RNN is trained on the dataset. A prediction using the model on the training dataset is printed in the notebook.
+
+Fantastic! The model is trained on the dataset and there is also a prediction using the same model.
+
+The function model_final builds and trains a model that incorporates embedding, and bidirectional RNN using the dataset.
+
+Great job implementing the model_final. The model_final model got trained for 25 epochs and the validation accuracy ends at 0.9790.
+
+Prediction
+The final model correctly predicts both sentences.
+
+Well done! The model_final model correctly predicts both sentences.
+
+
